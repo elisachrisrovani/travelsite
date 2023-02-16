@@ -4,33 +4,53 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/global.css">
+    <link rel="stylesheet" href="/css/main.css">
     <title>Travel Site</title>
 </head>
 <header>
+    <div class="header-top">
     <a class="logo" href="index.html">Travel Site</a>
     <nav>
         <ul class="header-nav">
-            <li>Home</li>
+            <li class="home">Home</li>
             <li>Hawaii</li>
             <li>Iceland</li>
             <li>Greece</li>
         </ul>
     </nav>
+    </div>
 </header>
 <body>
-    <section class="Hero">
-        <h1>Travelling Comes With Endless Discoveries</h1>
+    <section class="hero">
+        <div class="hero-container">
+        <h1 class="h1-hero">Travelling Comes With Endless Discoveries</h1>
         <p>Don't let your dreams be just dreams. Experience the world by booking a vacation with us now.</p>
         <button>Get Started</button>
+    </div>
+        <img class="img-hero" src="assets/hero.png" alt="hero">
     </section>
 
-    <section class="Recommedations">
-        <img src="assets/hawaii.jpg" alt="hawaii">
-        <img src="assets/iceland.jpg" alt="iceland">
-        <img src="assets/greece.jpg" alt="greece">
+    <section class="recommedations">
+        <h2>Recommendations</h2>
+        <div class="rec-card--container">
+        <img class="img-rec--card" src="assets/hawaii.jpg" alt="hawaii">
+        <img class="img-rec--card" src="assets/iceland.jpg" alt="iceland">
+        <img class="img-rec--card" src="assets/greece.jpg" alt="greece">
+        
+        <div class="h2-rec-card">
+            <h2 class="h2-rec-card--hawaii">Hawaii</h2>
+            <h2 class="h2-rec-card--iceland">Iceland</h2>
+            <h2 class="h2-rec-card--greece">Greece</h2>
+        </div>
+    </div>
     </section>
 </body>
 <footer>
+    <div class="footer-container">
     <h2>Contact</h2>
     <p class="p-footer">EMAIL</p>
     <P>info@travelsite.com</P>
@@ -43,5 +63,10 @@
     <p class="p-footer">SUNDAY</p>
     <p>Closed</p>
 
+    <h2>Social</h2>
+    <img class="icon-img" src="assets/icon-instagram.png" alt="icon-instagram">
+    <img class="icon-img" src="assets/icon-facebook.png" alt="icon-facebook">
+    <img class="icob-img" src="assets/icon-twitter.png" alt="icon-twitter">
+    </div>
 </footer>
 </html>
