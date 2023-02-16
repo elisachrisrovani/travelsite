@@ -1,13 +1,22 @@
+/*General*/
+
 h2{
     font-size: 25px;
     color: #335576;
     margin-left: 150px;
 }
+h3{
+    color: #335576;
+}
+
+/*Header*/
 .home{
     border-bottom: #DB7A4E solid;
     border-width: 5px;
     padding-bottom: 10px;
 }
+
+/*Hero*/
 .hero{
     display: flex;
     justify-content: space-between;
@@ -38,7 +47,9 @@ button{
     width: 30%;
     
 }
-.recommedations{
+
+/*Recommendations*/
+.recommendations{
     margin-top: 50px;
     margin-bottom: 20px;
 }
@@ -47,7 +58,7 @@ button{
    position: relative;
    left: 350px;
    margin-top: 20px;
-   
+   flex-wrap: wrap;
 }
 .img-rec--card{
     width: 18%;
@@ -77,5 +88,3 @@ button{
     left: 880px;
     color: #ffff;
 }
-
-

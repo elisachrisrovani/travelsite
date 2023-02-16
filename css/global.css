@@ -1,6 +1,12 @@
 *{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+/*Header*/
+header{
+    /*position: fixed;*/
+    width: 100%;
+}
 .header-top{
     background-color:#FFFFFF ;
     display: flex;
@@ -24,4 +30,42 @@
     width: 380px;
     margin-right: 50px;
 }
-
+/*Footer*/
+th, h4{
+    color: #DB7A4E;
+    font-size: 10px;
+    font-weight: 400;
+}
+th{
+    text-align: left;
+}
+td, .p-footer{
+    color: #335576;
+    font-size: 15px;
+}
+td{
+    text-align: left;
+}
+table{
+    width: 500px;
+}
+footer{
+    background-color: #FEFAF5;
+   
+   
+}
+.footer-col{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 1300px;
+    margin-left: 250px;
+}
+.icon-img{
+    width: 20px;
+    margin: 10px 10px;
+}
+.icon-img-facebook{
+    width: 10px;
+    margin: 10px 10px;
+}
