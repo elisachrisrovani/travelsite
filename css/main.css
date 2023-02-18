@@ -9,19 +9,13 @@ h3{
     color: #335576;
 }
 
-/*Header*/
-.home{
-    border-bottom: #DB7A4E solid;
-    border-width: 5px;
-    padding-bottom: 10px;
-}
-
 /*Hero*/
 .hero{
     display: flex;
     justify-content: space-between;
     background-color: #FEFAF5;
     padding: 150px;
+    margin-top: 50px;
 }
 .h1-hero{
     font-size: 45px;
@@ -56,12 +50,12 @@ button{
 .rec-card--container{
    width: 2000px;
    position: relative;
-   left: 350px;
+   left: 400px;
    margin-top: 20px;
    flex-wrap: wrap;
 }
 .img-rec--card{
-    width: 18%;
+    width: 15%;
     border-radius: 5px;
     border: 1px solid rgba(0, 0, 0, 0.2);
     margin-right: 30px;
@@ -73,18 +67,18 @@ button{
 .h2-rec-card--hawaii{
     position: absolute;
     bottom: 10px;
-    left: 80px;
+    left: 40px;
     color: #ffff;
 }
 .h2-rec-card--iceland{
     position: absolute;
     bottom: 10px;
-    left: 480px;
+    left: 370px;
     color: #ffff;
 }
 .h2-rec-card--greece{
     position: absolute;
     bottom: 10px;
-    left: 880px;
+    left: 710px;
     color: #ffff;
 }
