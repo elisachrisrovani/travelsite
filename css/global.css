@@ -20,9 +20,10 @@ header{
     font-weight: 700;
     color:#335576;
     margin-left: 150px;
-    
-  
-}
+ }
+ .logo:hover{
+    text-shadow:  0px 1.5px rgb(0, 0, 0, 0.4);
+ }
 .header-nav{
     font-size: 18px;
     list-style: none;
@@ -32,11 +33,26 @@ header{
     margin-right: 50px;
 }
 .underline{
+    color: black;
     border-bottom: #DB7A4E solid;
     border-width: 5px;
     padding-bottom: 10px;
 }
-
+a{
+    text-decoration: none;
+    
+}
+a:hover{
+    font-weight: 700;
+    
+}
+.a-nav{
+    color: black;
+}
+.a-nav:hover{
+    border-bottom: #db7a4e solid;
+    font-weight: 700;
+}
 /*Footer*/
 th, h4{
     color: #DB7A4E;
@@ -63,8 +79,6 @@ footer{
     background-color: #FEFAF5;
     padding: 40px 0 20px 0;
     
-   
-   
 }
 .footer-col{
     display: flex;
@@ -82,7 +96,11 @@ footer{
     width: 15px;
     margin-right: 25px;
 }
+.icon-img:hover, .icon-img-facebook:hover{
+    opacity: 60%;
+}
 .footer-title{
+    color: #335576;
     font-size: 25px;
 }
 .p-footer{

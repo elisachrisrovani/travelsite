@@ -52,22 +52,26 @@ h3{
 }
 .container-card-block{
     width: 300px;
-    margin-left: 15px;
+    
 }
-.container-card--h2{
+.container-card--list-title{
     text-align: center;
     border-bottom: 3px solid black;
     margin-bottom: 30px;
+    list-style: none;
+    font-size: 25px;
+    font-weight: 700;
    
 }
 
-.container-card--h3{
+.container-card--list{
     text-align: center;
     font-weight: 400;
     padding-top: 15px;
     padding-bottom: 15px;
     background-color: #FEFAF5;
     margin-top: 30px;
-    
+    list-style: none;
+    font-size: 20px;
     
 }
