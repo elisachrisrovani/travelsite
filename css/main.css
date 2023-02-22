@@ -1,9 +1,9 @@
 /*General*/
 
 h2{
-    font-size: 25px;
+    font-size: 1.563rem;
     color: #335576;
-    margin-left: 150px;
+    margin-left: 9.375rem;
 }
 h3{
     color: #335576;
@@ -14,32 +14,32 @@ h3{
     display: flex;
     justify-content: space-between;
     background-color: #FEFAF5;
-    padding: 150px;
-    margin-top: 50px;
+    padding: 9.375rem;
+    margin-top: 3.125rem;
 }
 .h1-hero{
-    font-size: 45px;
+    font-size: 2.815rem;
     color: #335576;
 }
 .hero-container{
-    width: 750px;
+    width: 46.875rem;
     color: #335576;
     
 }
 p{
-    font-size: 20px;
-    margin-bottom: 50px;
+    font-size: 1.25rem;
+    margin-bottom: 3.125rem;
 }
 .button{
     background-color: #DB7A4E;
     text-decoration: none;
     color: #ffff;
-    font-size: 15px;
-    margin-top: 40px;
+    font-size: 0.938rem;
+    margin-top: 2.5rem;
     border-radius: 30px;
     border-style: none;
-    padding: 10px 50px;
-    height: 800px;
+    padding: 0.625rem 3.125rem;
+    height: 50rem;
 }
 .button:hover{
     background-color: #d36239;
@@ -53,44 +53,44 @@ p{
 
 /*Recommendations*/
 .recommendations{
-    margin-top: 50px;
-    margin-bottom: 20px;
+    margin-top: 3.125rem;
+    margin-bottom:1.25rem;
 }
 .rec-card--container{
-   width: 2000px;
+   width: 125rem;
    position: relative;
-   left: 400px;
-   margin-top: 20px;
+   left: 25rem;
+   margin-top: 1.25rem;
    flex-wrap: wrap;
 }
 .img-rec--card{
     width: 15%;
     border-radius: 5px;
     border: 1px solid rgba(0, 0, 0, 0.2);
-    margin-right: 30px;
+    margin-right: 1.875rem;
     box-shadow: 0px 4px rgb(0, 0, 0, 0.1);
 }
 .img-rec--card:hover{
     box-shadow: 4px 4px 4px #f3a17b;
 }
 .h2-rec-card{
-    margin-bottom: 50px;
+    margin-bottom: 3.125rem;
 }
 .h2-rec-card--hawaii{
     position: absolute;
-    bottom: 10px;
-    left: 40px;
+    bottom: 0.625rem;
+    left: 2.5rem;
     color: #ffff;
 }
 .h2-rec-card--iceland{
     position: absolute;
-    bottom: 10px;
-    left: 370px;
+    bottom: 0.625rem;
+    left: 23.125rem;
     color: #ffff;
 }
 .h2-rec-card--greece{
     position: absolute;
-    bottom: 10px;
-    left: 710px;
+    bottom: 0.625rem;
+    left: 44.375rem;
     color: #ffff;
 }

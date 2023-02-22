@@ -1,9 +1,9 @@
 h1{
-    font-size: 90px;
+    font-size: 5.625rem;
     color: #ffff;
-    margin-left: 100px;
-    margin-top: 50px;
-    padding-top: 50px;
+    margin-left: 6.25rem;
+    margin-top: 3.125rem;
+    padding-top: 3.125rem;
 }
 h3{
     color: #335576;
@@ -14,7 +14,7 @@ h3{
     width: 100%;
     background-position: center;
     background-size: cover;
-    height:930px;
+    height:58.125rem;
     
 }
 .container-iceland{
@@ -22,7 +22,7 @@ h3{
     width: 100%;
     background-position: center;
     background-size: cover;
-    height:930px;
+    height:58.125rem;
 
 }
 .container-greece{
@@ -30,7 +30,7 @@ h3{
     width: 100%;
     background-position: center;
     background-size: cover;
-    height:930px;
+    height:58.125rem;
 
 }
 
@@ -42,24 +42,24 @@ h3{
 
 .container-card{
     background-color: #ffff;
-    width: 330px;
-    height: 480px;
+    width: 20.625rem;
+    height: 30rem;
     text-align: center;
-    margin-right: 50px;
-    border-radius: 10px;
-    margin-top: 60px;
+    margin-right: 3.125rem;
+    border-radius: 0.625rem;
+    margin-top: 3.75rem;
     
 }
 .container-card-block{
-    width: 300px;
+    width: 18.75rem;
     
 }
 .container-card--list-title{
     text-align: center;
     border-bottom: 3px solid black;
-    margin-bottom: 30px;
+    margin-bottom: 1.875rem;
     list-style: none;
-    font-size: 25px;
+    font-size: 1.563rem;
     font-weight: 700;
    
 }
@@ -67,11 +67,10 @@ h3{
 .container-card--list{
     text-align: center;
     font-weight: 400;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding: 0.938rem 0;    
     background-color: #FEFAF5;
-    margin-top: 30px;
+    margin-top: 1.875rem;
     list-style: none;
-    font-size: 20px;
+    font-size: 1.25rem;
     
 }

@@ -11,7 +11,9 @@
     <link rel="stylesheet" href="../css/form.css">
     <title>Travel Site</title>
 </head>
-<header>
+
+<body>
+  <header>
     <div class="header-top">
     <a class="logo" href="../index.html">Travel Site</a>
     <nav>
@@ -23,43 +25,76 @@
         </ul>
     </nav>
     </div>
-</header>
-<body>
-    <section>
+    </header>
 
+    <section>
+      <div class="container">
+        <div class="form-container">
+        <div class="form-checkbox">
+        <form action="" method="get">
+          <h3>Select your desired destination</h3>
+          <input type="checkbox" id="hawaii" name="hawaii" value="hawaii">
+          <label class="check-label" for="hawaii">Hawaii</label>
+          <input class="check-label" type="checkbox" id="iceland" name="iceland" value="iceland">
+          <label class="check-label" for="iceland">Iceland</label>
+          <input class="check-label" type="checkbox" id="greece" name="greece" value="greece">
+          <label class="check-label" for="greece">Greece</label>
+          <div class="check-label" class="form-txt">
+          <label for="fname">First name:</label>
+          <input class="txt-lable" type="text" name="name" id="name" required>
+          <div class="form-txt">
+          <label for="lname">Last name:</label>
+          <input class="txt-lable" type="text" name="last name" id="last-name" required>
+        </div>
+        <div class="form-txt">
+          <label for="email">E-mail:</label>
+          <input class="email-label" type="email" name="email" id="email" required>
+        </div>
+        <div class="form-submit">
+          <input class="btn" type="submit" value="Submit" required>
+        </div>
+      </div>
+        </div>
+        </form>
+        
+        </div>
+      </div>
+     
     </section>
-</body>
-<footer>
-    <div class="footer-col">
-        <div class="footer-col--contact">
-        <h3 class="footer-title">Contact</h3>
-        <h4>EMAIL</h4>
-        <a href="mailto:info@travelsite.com"><p class="p-footer">info@travelsite.com</p></a>
-        </div>
+
+    <footer>
+      <div class="footer-col">
+          <div class="footer-col--contact">
+          <h3 class="footer-title">Contact</h3>
+          <h4>EMAIL</h4>
+          <a href="mailto:info@travelsite.com"><p class="p-footer">info@travelsite.com</p></a>
+          </div>
+      
     
-  
-        <div class="footer-col--hours">
-        <h3 class="footer-title">Hours</h3>
-        <table>
-          <tr>
-            <th>MONDAY - FRIDAY</th>
-            <th>SATURDAY</th>
-            <th>SUNDAY</th>
-          </tr>
-          <tr>
-            <td>9:00 AM - 5:00 PM</td>
-            <td>10:00 AM - 4:00 PM</td>
-            <td>Closed</td>
-          </tr>
-        </table>
-        </div>
-        <div class="footer-col--social">
-        <h3  class="footer-title">Social</h3>
-          <a href="https://www.instagram.com"><img class="icon-img" src="../assets/icon-instagram.png" alt="icon-instagram"></a>
-          <a href="https://www.facebook.com"><img class="icon-img-facebook" src="../assets/icon-facebook.png" alt="icon-facebook"></a>
-          <a href="https://www.twitter.com"><img class="icon-img" src="../assets/icon-twitter.png" alt="icon-twitter"></a>
-        </div>
-    </div>
-  
-  </footer>
+          <div class="footer-col--hours">
+          <h3 class="footer-title">Hours</h3>
+          <table>
+            <tr>
+              <th>MONDAY - FRIDAY</th>
+              <th>SATURDAY</th>
+              <th>SUNDAY</th>
+            </tr>
+            <tr>
+              <td>9:00 AM - 5:00 PM</td>
+              <td>10:00 AM - 4:00 PM</td>
+              <td>Closed</td>
+            </tr>
+          </table>
+          </div>
+          <div class="footer-col--social">
+          <h3  class="footer-title">Social</h3>
+            <a href="https://www.instagram.com"><img class="icon-img" src="../assets/icon-instagram.png" alt="icon-instagram"></a>
+            <a href="https://www.facebook.com"><img class="icon-img-facebook" src="../assets/icon-facebook.png" alt="icon-facebook"></a>
+            <a href="https://www.twitter.com"><img class="icon-img" src="../assets/icon-twitter.png" alt="icon-twitter"></a>
+          </div>
+      </div>
+    
+    </footer>
+</body>
+
 </html>
