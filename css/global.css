@@ -14,6 +14,7 @@ header{
     display: flex;
     justify-content: space-between;
 }
+
 .header_logo{
     font-size: 1.563rem;
     text-decoration: none;
@@ -21,10 +22,14 @@ header{
     font-weight: 700;
     color:#335576;
     margin-left: 9.375rem;
+    transform: scale(0.9, 0.9);
  }
+
  .header_logo:hover{
     text-shadow:  0px 1.5px rgb(0, 0, 0, 0.4);
+    transform: scale(1);
  }
+
 .header_nav{
     font-size:1.125rem;
     list-style: none;
@@ -32,37 +37,37 @@ header{
     justify-content: space-between;
     width: 23.75rem;
     margin-right: 3.125rem;
-    
 }
+
 .header_nav_list--underline{
     color: black;
     border-bottom: #DB7A4E solid;
     border-width: 5px;
     padding-bottom: 0.625rem;
 }
+
 a{
     text-decoration: none;
     color: black;
-    
 }
+
 a:hover{
     font-weight: 700;
-    
 }
 
 .header_nav_list:hover{
     border-bottom: #db7a4e solid;
     border-width: 5px;
     font-weight: 700;
-    
 }
+
 /*Footer*/
 th, h4{
     color: #DB7A4E;
     font-size: 0.75rem;
     font-weight: 400;
-    
 }
+
 th{
     text-align: left;
 }
@@ -71,18 +76,22 @@ td, .footer_col_text{
     color: #335576;
     font-size: 1rem;
 }
+
 td{
     text-align: left;
     padding-top: 0.75rem;
 }
+
 table{
     width: 31.25rem;
 }
+
 footer{
     background-color: #FEFAF5;
     padding: 2.5rem 0 1.25rem 0;
     
 }
+
 .footer{
     display: flex;
     flex-wrap: wrap;
@@ -90,21 +99,28 @@ footer{
     width: 81.25rem;
     margin-left: 15.625rem;
 }
+
 .footer_col_title{
     color: #335576;
     font-size: 1.563rem;
 }
+
 .footer_col_icon-img{
-    width: 30px;
+    width: 1.875rem;
     margin-right: 1.563rem;
     padding-top: 1.25rem;
+    transform: scale(0.9, 0.9);
 }
+
 .footer_col_icon-img--facebook{
     width: 0.938rem;
     margin-right: 1.563rem;
+    transform: scale(0.9, 0.9);
 }
+
 .footer_col_icon-img:hover, .footer_col_icon-img--facebook:hover{
     opacity: 60%;
+    transform: scale(1.1);
 }
 
 

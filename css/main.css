@@ -5,6 +5,7 @@ h2{
     color: #335576;
     margin-left: 9.375rem;
 }
+
 h3{
     color: #335576;
 }
@@ -17,19 +18,22 @@ h3{
     padding: 9.375rem;
     margin-top: 3.125rem;
 }
+
 .hero_container_title{
     font-size: 2.815rem;
     color: #335576;
 }
+
 .hero_container{
     width: 46.875rem;
     color: #335576;
-    
 }
+
 p{
     font-size: 1.25rem;
     margin-bottom: 3.125rem;
 }
+
 .hero_container_button{
     background-color: #DB7A4E;
     text-decoration: none;
@@ -41,14 +45,15 @@ p{
     padding: 0.625rem 3.125rem;
     height: 50rem;
 }
+
 .hero_container_button:hover{
     background-color: #d36239;
     transition: all;
     box-shadow: 0px 4px rgb(0, 0, 0, 0.4);
 }
+
 .hero_img{
     width: 30%;
-    
 }
 
 /*Recommendations*/
@@ -56,6 +61,7 @@ p{
     margin-top: 3.125rem;
     margin-bottom:1.25rem;
 }
+
 .rec_card_container{
    width: 125rem;
    position: relative;
@@ -63,31 +69,37 @@ p{
    margin-top: 1.25rem;
    flex-wrap: wrap;
 }
+
 .rec_card_container_img{
     width: 15%;
     border-radius: 5px;
     border: 1px solid rgba(0, 0, 0, 0.2);
     margin-right: 1.875rem;
-    box-shadow: 0px 4px rgb(0, 0, 0, 0.1);
+    box-shadow: 0px 4px 4px rgb(0, 0, 0, 0.2);
 }
+
 .rec_card_container_img:hover{
     box-shadow: 4px 4px 4px #f3a17b;
 }
+
 .rec_card_title{
     margin-bottom: 3.125rem;
 }
+
 .rec_card_title--hawaii{
     position: absolute;
     bottom: 0.625rem;
     left: 2.5rem;
     color: #ffff;
 }
+
 .rec_card_title--iceland{
     position: absolute;
     bottom: 0.625rem;
     left: 23.125rem;
     color: #ffff;
 }
+
 .rec_card_title--greece{
     position: absolute;
     bottom: 0.625rem;

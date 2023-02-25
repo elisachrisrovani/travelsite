@@ -1,3 +1,4 @@
+/* General */
 h1{
     font-size: 5.625rem;
     color: #ffff;
@@ -9,35 +10,34 @@ h3{
     color: #335576;
 }
 
+/* Destination Card */
 .container_hawaii{
     background-image: url(../assets/hawaii.jpg);
     width: 100%;
     background-position: center;
     background-size: cover;
     height:58.125rem;
-    
 }
+
 .container_iceland{
     background-image: url(../assets/iceland.jpg);
     width: 100%;
     background-position: center;
     background-size: cover;
     height:58.125rem;
-
 }
+
 .container_greece{
     background-image: url(../assets/greece.jpg);
     width: 100%;
     background-position: center;
     background-size: cover;
     height:58.125rem;
-
 }
 
 .container_destination_card{
     display: flex;
     justify-content: center
-   
 }
 
 .container_card_block{
@@ -48,12 +48,12 @@ h3{
     margin-right: 3.125rem;
     border-radius: 0.625rem;
     margin-top: 3.75rem;
-    
 }
+
 .container_card{
     width: 18.75rem;
-    
 }
+
 .container_card_list_title{
     text-align: center;
     border-bottom: 3px solid black;
@@ -61,7 +61,6 @@ h3{
     list-style: none;
     font-size: 1.563rem;
     font-weight: 700;
-   
 }
 
 .container_card_list{
@@ -72,5 +71,4 @@ h3{
     margin-top: 1.875rem;
     list-style: none;
     font-size: 1.25rem;
-    
 }
