@@ -3,10 +3,10 @@
     width: 100%;
     background-position: center;
     background-size: cover;
-    height:58.125rem;
+    height:57rem;
     margin-top: 3.125rem;
 }
-.form-checkbox{
+.form_container{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,11 +16,19 @@
 h3{
     margin-bottom: 40px;
 }
-.form-txt{
-     padding: 1.875rem 0 0;
-     margin-top: 0.938rem;
+header{
+    padding-bottom: 5rem;
 }
-.form-submit{   
+.header_nav_list{
+    padding-bottom: 0.5rem;
+}
+
+.label_container{
+    padding: 1.8rem 0 0;
+     margin-top: 0.938rem;
+     margin-left: 0.5rem;
+}
+.form_submit{   
     margin: 3.125rem;
 }
 .btn{
@@ -50,23 +58,21 @@ form{
     border-radius: 0.938rem;
     
 }
-.form-checkbox, .form{
+.form_container, .form{
     color: #335576;
 }
 input, textarea{
-
-    border-color: #335576;
-    
-}
-.check-label{
-    margin: 0 0.625rem 3.125rem 0.625rem;
     border-color: #335576;
 }
-.email-label{
+.form_container_label{
+    margin: 0 0.625rem 0 0.625rem;
+    border-color: #335576;
+}
+.label_container_email{
     margin-left: 3.125rem;
     width: 12.5rem;
 }
-.txt-lable{
+.label_container_text{
     margin-left: 0.625rem;
     width: 12.5rem;
 }

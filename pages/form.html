@@ -14,87 +14,102 @@
 
 <body>
   <header>
-    <div class="header-top">
-    <a class="logo" href="../index.html">Travel Site</a>
+    <div class="header_top">
+    <a class="header_top header_logo" href="index.html">Travel Site</a>
     <nav>
-        <ul class="header-nav">
-            <a class="a-nav" href="../index.html"><li>Home</li></a>
-            <a class="a-nav" href="/pages/hawaii.html"><li>Hawaii</li></a>
-            <a class="a-nav" href="/pages/iceland.html"><li>Iceland</li></a>
-            <a class="a-nav" href="/pages/greece.html"><li>Greece</li></a>
+        <ul class="header_nav">
+            <li class="header_nav_list"><a href="/index.html">Home</a></li>
+            <li class="header_nav_list"><a href="hawaii.html">Hawaii</a></li>
+            <li class="header_nav_list"><a href="iceland.html">Iceland</a></li>
+            <li class="header_nav_list"><a href="greece.html">Greece</a></li>
         </ul>
     </nav>
     </div>
-    </header>
-
+</header>
     <section>
-      <div class="container">
-        <div class="form-container">
-        <div class="form-checkbox">
-        <form action="" method="get">
+    <div class="container">
+      <div class="form-box">
+        <div class="form_container">
+      <form>
+
           <h3>Select your desired destination</h3>
-          <input type="checkbox" id="hawaii" name="hawaii" value="hawaii">
-          <label class="check-label" for="hawaii">Hawaii</label>
-          <input class="check-label" type="checkbox" id="iceland" name="iceland" value="iceland">
-          <label class="check-label" for="iceland">Iceland</label>
-          <input class="check-label" type="checkbox" id="greece" name="greece" value="greece">
-          <label class="check-label" for="greece">Greece</label>
-          <div class="check-label" class="form-txt">
-          <label for="fname">First name:</label>
-          <input class="txt-lable" type="text" name="name" id="name" required>
-          <div class="form-txt">
-          <label for="lname">Last name:</label>
-          <input class="txt-lable" type="text" name="last name" id="last-name" required>
+            <!--Checkbox section starts-->
+              <input type="checkbox" id="hawaii" name="hawaii" value="hawaii">
+                <label class="form_container_label" for="hawaii">Hawaii</label>
+
+              <input class="form_container_label" type="checkbox" id="iceland" name="iceland" value="iceland">
+                <label class="form_conatiner_label" for="iceland">Iceland</label>
+
+              <input class="form_container_label" type="checkbox" id="greece" name="greece" value="greece">
+                <label class="form_container_label" for="greece">Greece</label>
+             <!--Checkbox section finishes-->
+             
+             <!--Text Label section starts-->
+              <div class="label_container">
+                  <label>First name:</label>
+                    <input class="label_container_text" type="text" name="name" required>
+              </div>
+
+              <div class="label_container">
+                <label>Last name:</label>
+                  <input class="label_container_text" type="text" name="last name" required>
+              </div>
+
+              <div class="label_container">
+                <label>E-mail:</label>
+                  <input class="label_container_email" type="email" required>
+              </div>
+
+              <!--Text Label section finishes-->
+
+              <div class="form_submit">
+                  <input class="btn" type="submit" value="Submit">
+              </div>
+              </form>
+           </div>
+           </div>
         </div>
-        <div class="form-txt">
-          <label for="email">E-mail:</label>
-          <input class="email-label" type="email" name="email" id="email" required>
-        </div>
-        <div class="form-submit">
-          <input class="btn" type="submit" value="Submit" required>
-        </div>
-      </div>
-        </div>
-        </form>
         
-        </div>
-      </div>
+        
+       
      
     </section>
 
     <footer>
-      <div class="footer-col">
-          <div class="footer-col--contact">
-          <h3 class="footer-title">Contact</h3>
-          <h4>EMAIL</h4>
-          <a href="mailto:info@travelsite.com"><p class="p-footer">info@travelsite.com</p></a>
+      <div class="footer">
+          <div class="footer_col">
+              <h3 class="footer_col_title">Contact</h3>
+              <h4>EMAIL</h4>
+              <a href="mailto:info@travelsite.com"><p class="footer_col_text">info@travelsite.com</p></a>
           </div>
       
-    
-          <div class="footer-col--hours">
-          <h3 class="footer-title">Hours</h3>
-          <table>
-            <tr>
-              <th>MONDAY - FRIDAY</th>
-              <th>SATURDAY</th>
-              <th>SUNDAY</th>
-            </tr>
-            <tr>
-              <td>9:00 AM - 5:00 PM</td>
-              <td>10:00 AM - 4:00 PM</td>
-              <td>Closed</td>
-            </tr>
-          </table>
+  
+          <div class="footer_col">
+              <h3 class="footer_col_title">Hours</h3>
+                <table>
+                  <tr>
+                      <th>MONDAY - FRIDAY</th>
+                      <th>SATURDAY</th>
+                      <th>SUNDAY</th>
+                  </tr>
+                  <tr>
+                      <td>9:00 AM - 5:00 PM</td>
+                      <td>10:00 AM - 4:00 PM</td>
+                      <td>Closed</td>
+                  </tr>
+                </table>
           </div>
-          <div class="footer-col--social">
-          <h3  class="footer-title">Social</h3>
-            <a href="https://www.instagram.com"><img class="icon-img" src="../assets/icon-instagram.png" alt="icon-instagram"></a>
-            <a href="https://www.facebook.com"><img class="icon-img-facebook" src="../assets/icon-facebook.png" alt="icon-facebook"></a>
-            <a href="https://www.twitter.com"><img class="icon-img" src="../assets/icon-twitter.png" alt="icon-twitter"></a>
+
+          <div class="footer_col">
+              <h3  class="footer_col_title">Social</h3>
+                  <a href="https://www.instagram.com"><img class="footer_col_icon-img" src="/assets/icon-instagram.png" alt="icon-instagram"></a>
+                  <a href="https://www.facebook.com"><img class="footer_col_icon-img--facebook" src="/assets/icon-facebook.png" alt="icon-facebook"></a>
+                  <a href="https://www.twitter.com"><img class="footer_col_icon-img" src="/assets/icon-twitter.png" alt="icon-twitter"></a>
           </div>
       </div>
-    
-    </footer>
+  
+  </footer>
+  
 </body>
 
 </html>

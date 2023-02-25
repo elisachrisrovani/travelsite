@@ -4,16 +4,17 @@
 
 /*Header*/
 header{
-    /*position: fixed;*/
-    width: 100%;
-    height: 0.938rem;
+   position: fixed;
+   width: 100%;
+    top: 0;
 }
-.header-top{
+
+.header_top{
     background-color:#FFFFFF ;
     display: flex;
     justify-content: space-between;
 }
-.logo{
+.header_logo{
     font-size: 1.563rem;
     text-decoration: none;
     margin-top: 1.25rem;
@@ -21,18 +22,19 @@ header{
     color:#335576;
     margin-left: 9.375rem;
  }
- .logo:hover{
+ .header_logo:hover{
     text-shadow:  0px 1.5px rgb(0, 0, 0, 0.4);
  }
-.header-nav{
+.header_nav{
     font-size:1.125rem;
     list-style: none;
     display: inline-flex;
     justify-content: space-between;
     width: 23.75rem;
     margin-right: 3.125rem;
+    
 }
-.underline{
+.header_nav_list--underline{
     color: black;
     border-bottom: #DB7A4E solid;
     border-width: 5px;
@@ -40,18 +42,19 @@ header{
 }
 a{
     text-decoration: none;
+    color: black;
     
 }
 a:hover{
     font-weight: 700;
     
 }
-.a-nav{
-    color: black;
-}
-.a-nav:hover{
+
+.header_nav_list:hover{
     border-bottom: #db7a4e solid;
+    border-width: 5px;
     font-weight: 700;
+    
 }
 /*Footer*/
 th, h4{
@@ -64,7 +67,7 @@ th{
     text-align: left;
 }
 
-td, .p-footer{
+td, .footer_col_text{
     color: #335576;
     font-size: 1rem;
 }
@@ -80,29 +83,28 @@ footer{
     padding: 2.5rem 0 1.25rem 0;
     
 }
-.footer-col{
+.footer{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     width: 81.25rem;
     margin-left: 15.625rem;
 }
-.icon-img{
+.footer_col_title{
+    color: #335576;
+    font-size: 1.563rem;
+}
+.footer_col_icon-img{
     width: 30px;
     margin-right: 1.563rem;
     padding-top: 1.25rem;
 }
-.icon-img-facebook{
+.footer_col_icon-img--facebook{
     width: 0.938rem;
     margin-right: 1.563rem;
 }
-.icon-img:hover, .icon-img-facebook:hover{
+.footer_col_icon-img:hover, .footer_col_icon-img--facebook:hover{
     opacity: 60%;
 }
-.footer-title{
-    color: #335576;
-    font-size: 1.563rem;
-}
-.p-footer{
-    margin-top: 0;
-}
+
+
