@@ -48,6 +48,10 @@ h3{
     margin-right: 3.125rem;
     border-radius: 0.625rem;
     margin-top: 3.75rem;
+   
+}
+.container_card_block:hover{
+    box-shadow: 5px 5px 5px rgb(0,0,0,0.7);
 }
 
 .container_card{
